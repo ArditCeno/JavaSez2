@@ -1,0 +1,7 @@
+a) Shpjegoni konceptin e trashëgimisë në Java.
+Cili është ndryshimi midis trashëgimisë dhe ndërfaqeve?
+
+Trashegimi lejon nje klase qe te mare atrubutet dhe metodat nga nje klase tjeter  me extens
+
+trashegimia-> nje klase trashegon vetem nje klase
+interface->nje klase mund te implementoje shume interface me implemenst

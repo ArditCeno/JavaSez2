@@ -1,0 +1,14 @@
+a. Shpjegoni ndryshimin midis ndërfaqeve dhe klasave abstrakte në Java.
+Kur është e preferueshme të përdoret njëra mbi tjetrën?
+
+Klasa Abstrakte
+Mund te kete metode normale dhe abstrakte
+Trashegohet me extends
+Perdoret kur klasat kane sjellje te perbashket
+Perdoret kur ka llogjike te perbashket
+
+Interface
+Percakton metodat per implementim
+Implementohet me implements
+Nje klase mund  te implementoje shume interface
+Perdoret kur duam funksionalitete te ndryshme

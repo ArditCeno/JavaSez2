@@ -1,0 +1,5 @@
+b)
+Kapja e ngjarjeve realizohet me Listener-at (ActionListener, MouseListener, etj.).
+Komponenti regjistron listener-in me addActionListener().
+Klasat e brendshme përdoren sepse kanë qasje direkte në komponentët e klasës së
+jashtme dhe e bëjnë kodin më të organizuar.

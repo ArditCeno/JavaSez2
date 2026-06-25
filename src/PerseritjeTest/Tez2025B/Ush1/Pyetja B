@@ -1,0 +1,12 @@
+b) Perse perdoret menaxheri i layout permendi llojet e menaxhereve qe dini dhe ku ndryshojne ato nga njeri tjetri
+Pse përdoret Menaxheri i Layout-it?
+Menaxheri i Layout-it përdoret për të organizuar dhe pozicionuar automatikisht komponentët grafikë (si butonat, fushat e tekstit, etiketat) brenda një dritareje (JFrame, JPanel).
+
+Në vend që t'i vendosim komponentët me koordinata fikse pixel-ash (gjë që do t'i prishte ato nëse dritarja ndryshon madhësinë ose hapet në një ekran tjetër), menaxheri i layout-it garanton që ndërfaqja grafike (GUI) të jetë përshtatshme (responsive) dhe të duket mirë në çdo rezolucion dritareje.
+
+Llojet kryesore të Menaxherëve dhe ku ndryshojnë:
+Menaxheri (Layout Manager)	Si i organizon komponentët?	Ku ndryshon nga të tjerët?
+BorderLayout	Ndizet në 5 zona: NORTH, SOUTH, EAST, WEST, dhe CENTER.	Është layout-i i paracaktuar (default) për JFrame. Komponentët zgjerohen për të mbushur të gjithë hapësirën e zonës së tyre. P.sh. zona CENTER merr gjithë hapësirën e mbetur.
+FlowLayout	I vendos komponentët në një rresht, njëri pas tjetrit (nga e majta në të djathtë).	Është layout-i default për JPanel. Nëse rreshti mboshet dhe nuk ka më vend, komponentët kalojnë automatikisht në rreshtin e ri poshtë. Ruajnë madhësinë e tyre origjinale.
+GridLayout	I organizon komponentët në një tabelë drejtkëndore me rreshta dhe kolona të barabarta.	Çdo qelizë e tabelës ka saktësisht të njëjtën madhësi. Komponentët shtrihen plotësisht për të zënë të gjithë hapësirën e qelizës së tyre (siç e përdorëm tek formulari i artikujve).
+BoxLayout	I rreshton komponentët në një kolonë të vetme (vertikalisht) ose në një rresht të vetëm (horizontalisht).	Ndryshe nga FlowLayout, ai nuk i kalon komponentët në rresht të ri nëse mbaron hapësira, por i mban rreptësisht në një linjë të vetme.

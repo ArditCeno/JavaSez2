@@ -1,0 +1,19 @@
+Çfarë janë metodat abstrakte dhe klasat abstrakte?
+Jepni një shembull të një klase abstrakte në Java.
+
+Klasat abstrakte nuk krijojn objekte direkt
+Metodat abstrakte deklarohen pa trup deh implementojne nga llast bije
+
+abstract class Forme{
+   abstract double siperfaqe();
+   }
+  class Reth extends Forma{
+   double r;
+
+    Reth(double r){
+    this.r=r;
+    }
+    double siperfaqe (){
+    return Math.PI*r*r;
+    }
+  }

@@ -1,0 +1,10 @@
+a)
+
+Klasa abstrakte: nuk krijon objekte direkt, mund të ketë metoda abstrakte dhe normale.
+Përdoret kur klasat bijë kanë sjellje të përbashkët.
+Interface: përcakton kontratë (metoda që duhen implementuar).
+Një klasë mund të implementojë shumë interface.
+
+Ngjashmëri: të dyja përdoren për abstraksion dhe polimorfizëm.
+Ndryshim: klasa abstrakte trashëgohet vetëm një herë, interface mund të implementohen shumë.
+

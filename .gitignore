@@ -28,3 +28,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Sezoni2 - exclude specific packages ###
+/src/PerseritjeArdit/
+/src/Leksione/
+/src/UML/

@@ -13,7 +13,6 @@ Puna përfshin 6 laboratorë dhe 13 seminare që mbulojnë konceptet themelore d
 
 ## Karakteristikat Kryesore
 
-- **Lojë Mario Platformer** (`Lab3/MarioGame`) — lojë 2D me grafikë Swing, platforma, armiq, monedha dhe topa zjarri
 - **Rezervim Hoteli** (`Lab4`) — formë rezervimi me lloje dhomash dhe shërbime shtesë
 - **Analizë Frekuence Fjalësh** (`Seminar13`) — lexon tekst dhe paraqit frekuencën e fjalëve
 - **Menaxhim Pronash** (`Seminar8`) — aplikacion për menaxhimin e pronave me oferta klientësh
